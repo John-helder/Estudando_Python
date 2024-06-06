@@ -26,6 +26,11 @@ def main():
                 print("Valor de saque excede o limite diário.")
         elif opcao == '3':
             extrato = f"""
+            Nome: John
+            Data de Nascimento: 22/12/1992
+            CPF: ***.***.1213-12
+            Conta: 00000-00
+            
             Saldo Atual: R$ {deposito:.2f}
             Saque: R$ {saque:.2f}
             """
